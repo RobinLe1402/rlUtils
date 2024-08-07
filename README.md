@@ -7,4 +7,27 @@ case, as I might move code into `.cpp` files at any point.
 
 ## List of Utilities
 
-(coming soon)
+### OS
+Check the operating system the code is being compiled on via `constexpr` values or preprocessor
+definitions.
+
+The following OS's are supported at the moment:
+- Android
+- iOS
+- iOSSimulator
+- Linux
+- MacOS
+- MacCatalyst
+- POSIX
+- UNIX
+- Windows
+
+#### Sample code
+```cpp
+if constexpr (rlUtils::CurrentOS == rlUtils::OS::Windows)
+	std::printf("Have you ever considered switching to Linux? :)");
+	
+#if RLUTILS_OS_CURRENT == RLUTILS_OS_MACOS
+	std::printf("");
+#endif
+```
