@@ -28,6 +28,31 @@ if constexpr (rlUtils::CurrentOS == rlUtils::OS::Windows)
 	std::printf("Have you ever considered switching to Linux? :)");
 	
 #if RLUTILS_OS_CURRENT == RLUTILS_OS_MACOS
-	std::printf("");
+	std::printf("Have you ever considered switching to Linux? :)");
 #endif
+```
+
+
+### Endian
+Get the current endian + convert between endians with `inline constexpr` functions.
+
+The following endians can be detected:
+- Little Endian
+- Big Endian
+- Mixed Endian
+
+You can convert between the following endians:
+- Little Endian
+- Big Endian
+
+
+#### Sample code
+```cpp
+file.read(&i16, sizeof(i16));
+i16 = rlUtils::ChangeEndian::BEToHost(i16);
+
+// ...
+
+i64 = rlUtils::ChangeEndian::HostToLE(i64);
+file.write(&i64, sizeof(i64));
 ```
