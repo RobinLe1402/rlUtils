@@ -21,9 +21,12 @@
     <ClInclude Include="..\include\rlUtils\Endian.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\rlUtils\MemoryStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dummy.cpp">
+    <ClCompile Include="MemoryStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

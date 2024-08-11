@@ -1,0 +1,14 @@
+#ifndef RLUTILS_TEST_MEMORYSTREAM
+#define RLUTILS_TEST_MEMORYSTREAM
+
+
+
+
+
+bool TestMemoryStream();
+
+
+
+
+
+#endif // RLUTILS_TEST_MEMORYSTREAM

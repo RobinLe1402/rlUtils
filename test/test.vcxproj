@@ -138,6 +138,7 @@
   <ItemGroup>
     <ClCompile Include="EndianTest.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryStreamTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\src\rlUtils.vcxproj">
@@ -146,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EndianTest.hpp" />
+    <ClInclude Include="MemoryStreamTest.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

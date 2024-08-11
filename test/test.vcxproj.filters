@@ -21,9 +21,15 @@
     <ClCompile Include="EndianTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MemoryStreamTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EndianTest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryStreamTest.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -20,10 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\rlUtils\Endian.hpp" />
+    <ClInclude Include="..\include\rlUtils\MemoryStream.hpp" />
     <ClInclude Include="..\include\rlUtils\OS.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dummy.cpp" />
+    <ClCompile Include="MemoryStream.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
